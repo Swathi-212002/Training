@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Java Script HTML events</p>
+    <button id="btn"> Click Me</button>
+    <p id="demo"> </p>
+    <script>
+        document.getElementById("btn").onclick=function(){//addEventListener("click", function() {
+            document.getElementById("demo").innerHTML = "Hello World!";
+            console.log("Hello World!");
+            alert("Hello World!");
+            //console.log("i am good");
+            document.getElementById("btn").style.backgroundColor = "red";
+        };
+       
+        //data.forEach((x) => {
+          //  console.log(x);
+        //});
+        //let res=[];
+        //data.forEach((number,index) => {
+            //if (number % 2 == 0) {
+               // res.push(number)
+            //}
+        //});
+        //console.log(res);
+        //let a= data.filter((number) => {
+        //});
+        let number = prompt("Enter a number:");
+        number = Number(number);
+        function checkEvenOdd(number) {
+            if (number % 2 === 0) {
+              document.write(number + " is even.");
+              console.log(number + " is even.");
+            } else {
+              console.log(number + " is odd.");
+                alert(number + " is odd.");
+            }
+          }
+          
+          // Example usage:
+         // checkEvenOdd(5); // Output: 5 is odd.
+         // checkEvenOdd(8); // Output: 8 is even.
+          
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

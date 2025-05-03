@@ -1,0 +1,50 @@
+check if a number is even or odd
+Find the sum of digits of a number.
+Reverse a number.
+Check if a number is a palindrome.
+Check if a number is a palindrome without converting it to a string.
+Count the number of digits in a number.
+Calculate factorial of a number.
+Check if a number is prime.
+Print all prime numbers in a range.
+Find the GCD (HCF) of two numbers.
+Generate the Fibonacci series up to N terms.
+Check if a number is part of the Fibonacci sequence.
+Print a number triangle pattern.
+Calculate the power of a number without using built-in functions.
+Check if a number is an Armstrong number.
+Print all Armstrong numbers in a range.
+Find the sum of first N natural numbers.
+Find the sum of squares of first N natural numbers.
+Find the sum of cubes of first N natural numbers.
+Check if a number is a perfect square.
+Check if two numbers are equal without using comparison operators.
+Find the largest digit in a number.
+Find the smallest digit in a number.
+Count even and odd digits in a number.
+Find the frequency of a digit in a number.
+Remove duplicate digits from a number.
+Sort the digits of a number.
+Form the largest number possible from digits.
+Form the smallest number possible from digits.
+Swap the first and last digits of a number.
+Rotate the digits of a number (left/right).
+Print first N natural numbers
+Print sum of first N natural numbers
+Print multiplication table of a number
+Print all even numbers up to N
+Print all odd numbers up to N
+Print Fibonacci series up to N terms
+Print factorial of a number
+Print reverse of a number
+Print sum of digits of a number
+Print product of digits of a number
+Convert decimal to binary
+Convert binary to decimal
+Convert decimal to octal
+Count number of digits in a number
+Find largest digit in a number
+Find smallest digit in a number
+Generate a random number between two numbers
+Swap two numbers without using a temporary variable
+

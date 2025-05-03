@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Java Script HTML events</p>
+    <button id="btn"> Click Me</button>
+    <p id="demo"> </p>
+    <script>
+        document.getElementById("btn").onclick=function(){//addEventListener("click", function() {
+            document.getElementById("demo").innerHTML = "Hello World!";
+            console.log("Hello World!");
+            alert("Hello World!");
+            //console.log("i am good");
+            document.getElementById("btn").style.backgroundColor = "red";
+        };
+       
+    </script>
+    <script>
+        function checkevenodd(number){
+            if (number % 2 === 0){
+                console.log(number + "is even");
+            }
+            else{
+                console.log(number + "is odd");
+            }
+        }
+        //checkevenodd(10);
+        //checkevenodd(11);
+        let number =parseInt(prompt("Enter a number:"));
+        function checkEvenOdd(number) {
+            if (number % 2 === 0) {
+              document.write(number + " is even.");
+              console.log(number + " is even.");
+            } else {
+              console.log(number + " is odd.");
+                alert(number + " is odd.");
+            }
+          }
+            checkEvenOdd(number);
+
+            function isNumberPalindrome(num) {
+                // Convert the number to a string
+                let str = num.toString();
+                
+                // Compare the original string with its reversed version
+                return str === str.split('').reverse().join('');
+            }
+            console.log(palindrome(5454545));          
+           
+    </script>
+    
+</body>
+</html>
